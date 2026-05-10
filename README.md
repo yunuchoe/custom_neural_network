@@ -3,14 +3,14 @@
 This repository contains an object-oriented deep learning framework, designed to solve Gaussian XOR classification problems.
 
 This was completed as an academic assignment for ECE 471 (Computer Vision) to demonstrate a mathematical understanding of computational graphs and backpropagation without the use of libraries like PyTorch or TensorFlow. Here is the distribution of code: 
-* **Provided:** The fundamental class structures (`Node` base class), testing loop, and the Gaussian XOR data generation functions.
-* **Implemented:** The core mathematical engines, specifically the `forward` pass computations, the `backward` pass derivative calculus, gradient accumulation, and parameter stepping.
+* **Provided:** The fundamental class structures (Node base class), testing loop, and the Gaussian XOR data generation functions.
+* **Implemented:** The core mathematical engines, specifically the forward pass computations, the backward pass derivative calculus, gradient accumulation, and parameter stepping.
 
 ### Network Architecture
 The framework builds a dynamically updating computational graph consisting of:
 * **Mathematical Nodes:** Multiplication, Addition, and AddConstant.
 * **Loss & Activation:** Squared Error loss and Sigmoid activation functions.
-* **Topology:** A 2-Input $\rightarrow$ 2-Hidden $\rightarrow$ 1-Output Multilayer Perceptron
+* **Design:** A 2-Input -> 2-Hidden -> 1-Output Multilayer Perceptron
 
 ### Training Dynamics & Stochastic Variance
 Because the network relies on random Gaussian distributions for both parameter initialization and synthetic dataset generation without a fixed random seed, the model demonstrates the natural variance inherent to stochastic gradient descent. 
