@@ -4,7 +4,7 @@ This repository contains an object-oriented deep learning framework built with j
 
 This was completed as an academic assignment for ECE 471 (Computer Vision) to demonstrate a mathematical understanding of computational graphs and backpropagation without the use of libraries like PyTorch or TensorFlow. Here is the distribution of code: 
 * **Provided:** The fundamental class structures (`Node` base class), testing loop scaffolding, and the synthetic Gaussian XOR data generation functions were provided by the university.
-* **Implemented:** The core mathematical engines—specifically the `forward` pass computations, the `backward` pass derivative calculus (chain rule routing), gradient accumulation, and parameter stepping—were entirely manually derived and engineered.
+* **Implemented:** The core mathematical engines, specifically the `forward` pass computations, the `backward` pass derivative calculus (chain rule routing), gradient accumulation, and parameter stepping, were entirely manually derived and engineered.
 
 ### Network Architecture
 The framework builds a dynamically updating computational graph consisting of:
